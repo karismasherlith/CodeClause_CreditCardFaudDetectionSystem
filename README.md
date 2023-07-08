@@ -1,5 +1,6 @@
 # CodeClause_CreditCardFaudDetectionSystem
 Python Code for Credit Card Fraud Detection System
+The data set used for the project is available on: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 1. IMPORTING MODULES
    - pandas: This library is used for data manipulation and analysis on structured datasets such as CSV files.
