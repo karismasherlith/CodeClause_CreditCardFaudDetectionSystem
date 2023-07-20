@@ -1,6 +1,6 @@
 # CodeClause_CreditCardFaudDetectionSystem
 Python Code for Credit Card Fraud Detection System
-The data set used for the project is available on: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+The data set used for the project is available at: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 1. IMPORTING MODULES
    - pandas: This library is used for data manipulation and analysis on structured datasets such as CSV files.
@@ -34,7 +34,7 @@ The data set used for the project is available on: https://www.kaggle.com/datase
    - We first create a new data frame named 'X' by dropping the 'Class' column.
    - We then assign the 'Class' columns to another data frame named 'Y'
    - Then we split the dataset into training and testing subsets with 20% of the dataset for training and 80% for testing.
-   - We also set a random state of 42 so as to reproduce the same split in every program run.
+   - We also set a random state of 42 to reproduce the same split in every program run.
      
 9. TRAINING RANDOM FOREST CLASSIFIER
     - The classifier is created with an estimator which specifies the number of decision trees to be used in the random forest ensemble.
